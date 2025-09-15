@@ -1,198 +1,169 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML5 Tags - Explained</title>
-  <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
-    h1, h2 { color: #2c3e50; }
-    section { margin-bottom: 40px; }
-    .tag { font-weight: bold; color: #e74c3c; }
-    .explanation { margin-left: 20px; }
-  </style>
-</head>
-<body>
-  <h1>Complete List of HTML5 Tags with Explanations</h1>
-  <p>This document explains every HTML5 tag in simple words so even beginners can understand easily.</p>
+# HTML5 Tags - Complete List with Explanations
 
-  <!-- BASIC STRUCTURE -->
-  <section>
-    <h2>Basic Structure</h2>
-    <p><span class="tag">&lt;!DOCTYPE&gt;</span> → Defines the document type. In HTML5 it declares the page as HTML5.</p>
-    <p><span class="tag">&lt;html&gt;</span> → Root element of an HTML page. All content is inside this.</p>
-    <p><span class="tag">&lt;head&gt;</span> → Contains information about the page (metadata, title, links, styles).</p>
-    <p><span class="tag">&lt;title&gt;</span> → Sets the page title shown in the browser tab.</p>
-    <p><span class="tag">&lt;body&gt;</span> → The main content of the page visible to users.</p>
-  </section>
+This README contains the complete list of **all ~145 HTML5 tags** (including obsolete ones) explained in simple words, so students and beginners can easily learn. You can also copy them directly for practice.
 
-  <!-- METADATA -->
-  <section>
-    <h2>Metadata</h2>
-    <p><span class="tag">&lt;base&gt;</span> → Sets a base URL for all relative links.</p>
-    <p><span class="tag">&lt;link&gt;</span> → Connects external files like CSS or icons.</p>
-    <p><span class="tag">&lt;meta&gt;</span> → Provides extra info like description, keywords, or character set.</p>
-    <p><span class="tag">&lt;style&gt;</span> → Defines internal CSS styling rules.</p>
-  </section>
+---
 
-  <!-- SECTIONING -->
-  <section>
-    <h2>Sectioning</h2>
-    <p><span class="tag">&lt;header&gt;</span> → Defines the top section of a page or article, often with logos and navigation.</p>
-    <p><span class="tag">&lt;footer&gt;</span> → Bottom section, usually with copyright, contact info, or links.</p>
-    <p><span class="tag">&lt;nav&gt;</span> → Represents navigation links like menus.</p>
-    <p><span class="tag">&lt;article&gt;</span> → Self-contained content, e.g., blog posts.</p>
-    <p><span class="tag">&lt;section&gt;</span> → Groups content thematically.</p>
-    <p><span class="tag">&lt;aside&gt;</span> → Content related to main content, like a sidebar.</p>
-    <p><span class="tag">&lt;address&gt;</span> → Contact information like address, email, phone.</p>
-    <p><span class="tag">&lt;main&gt;</span> → The main unique content of the page.</p>
-    <p><span class="tag">&lt;h1&gt; to &lt;h6&gt;</span> → Headings from largest (h1) to smallest (h6).</p>
-    <p><span class="tag">&lt;hgroup&gt;</span> → Groups headings together (rarely used).</p>
-  </section>
+## 🏗️ Basic Structure
+- **`<!DOCTYPE>`** → Declares the document as HTML5.
+- **`<html>`** → Root element of the page.
+- **`<head>`** → Contains metadata, title, and links.
+- **`<title>`** → Sets the title in the browser tab.
+- **`<body>`** → Main content visible to users.
 
-  <!-- GROUPING CONTENT -->
-  <section>
-    <h2>Grouping Content</h2>
-    <p><span class="tag">&lt;div&gt;</span> → Generic container for grouping content.</p>
-    <p><span class="tag">&lt;p&gt;</span> → Paragraph of text.</p>
-    <p><span class="tag">&lt;hr&gt;</span> → Horizontal line separating content.</p>
-    <p><span class="tag">&lt;pre&gt;</span> → Preformatted text preserving spaces and line breaks.</p>
-    <p><span class="tag">&lt;blockquote&gt;</span> → A block of quoted text.</p>
-    <p><span class="tag">&lt;ol&gt;</span> → Ordered list (numbers).</p>
-    <p><span class="tag">&lt;ul&gt;</span> → Unordered list (bullets).</p>
-    <p><span class="tag">&lt;li&gt;</span> → List item inside ul/ol.</p>
-    <p><span class="tag">&lt;dl&gt;</span> → Description list (terms and definitions).</p>
-    <p><span class="tag">&lt;dt&gt;</span> → Term in a description list.</p>
-    <p><span class="tag">&lt;dd&gt;</span> → Definition of a term in a description list.</p>
-    <p><span class="tag">&lt;figure&gt;</span> → Groups media content like images with captions.</p>
-    <p><span class="tag">&lt;figcaption&gt;</span> → Caption for a &lt;figure&gt;.</p>
-  </section>
+---
 
-  <!-- TEXT-LEVEL SEMANTICS -->
-  <section>
-    <h2>Text-Level Semantics</h2>
-    <p><span class="tag">&lt;a&gt;</span> → Creates a hyperlink to another page or location.</p>
-    <p><span class="tag">&lt;abbr&gt;</span> → Defines an abbreviation, shows full form on hover.</p>
-    <p><span class="tag">&lt;b&gt;</span> → Bold text (without importance).</p>
-    <p><span class="tag">&lt;bdi&gt;</span> → Isolates text direction for mixed languages.</p>
-    <p><span class="tag">&lt;bdo&gt;</span> → Overrides text direction (e.g., left-to-right).</p>
-    <p><span class="tag">&lt;br&gt;</span> → Line break inside text.</p>
-    <p><span class="tag">&lt;cite&gt;</span> → Reference to a creative work (like book, movie).</p>
-    <p><span class="tag">&lt;code&gt;</span> → Displays programming code snippets.</p>
-    <p><span class="tag">&lt;data&gt;</span> → Associates content with machine-readable value.</p>
-    <p><span class="tag">&lt;dfn&gt;</span> → Marks the defining instance of a term.</p>
-    <p><span class="tag">&lt;em&gt;</span> → Emphasized text (usually italic).</p>
-    <p><span class="tag">&lt;i&gt;</span> → Italic text (used for alternate voice).</p>
-    <p><span class="tag">&lt;kbd&gt;</span> → Represents keyboard input.</p>
-    <p><span class="tag">&lt;mark&gt;</span> → Highlights text with yellow background.</p>
-    <p><span class="tag">&lt;q&gt;</span> → Short inline quotation.</p>
-    <p><span class="tag">&lt;rp&gt;</span> → Fallback text for browsers not supporting ruby annotations.</p>
-    <p><span class="tag">&lt;rt&gt;</span> → Explanation or pronunciation in ruby text.</p>
-    <p><span class="tag">&lt;ruby&gt;</span> → Small text annotations above characters (used in Asian languages).</p>
-    <p><span class="tag">&lt;s&gt;</span> → Strikethrough text (no longer correct).</p>
-    <p><span class="tag">&lt;samp&gt;</span> → Sample output from programs.</p>
-    <p><span class="tag">&lt;small&gt;</span> → Smaller, less important text.</p>
-    <p><span class="tag">&lt;span&gt;</span> → Inline container for styling.</p>
-    <p><span class="tag">&lt;strong&gt;</span> → Important text (bold, with meaning).</p>
-    <p><span class="tag">&lt;sub&gt;</span> → Subscript text.</p>
-    <p><span class="tag">&lt;sup&gt;</span> → Superscript text.</p>
-    <p><span class="tag">&lt;time&gt;</span> → Represents date/time values.</p>
-    <p><span class="tag">&lt;u&gt;</span> → Underlined text (stylistic).</p>
-    <p><span class="tag">&lt;var&gt;</span> → Variable in math or programming.</p>
-    <p><span class="tag">&lt;wbr&gt;</span> → Suggests where line breaks may occur.</p>
-  </section>
+## 📝 Metadata
+- **`<base>`** → Base URL for relative links.
+- **`<link>`** → Connects external CSS, icons, etc.
+- **`<meta>`** → Extra info like charset, description.
+- **`<style>`** → Defines internal CSS rules.
 
-  <!-- EDITS -->
-  <section>
-    <h2>Edits</h2>
-    <p><span class="tag">&lt;del&gt;</span> → Text that has been deleted (strikethrough).</p>
-    <p><span class="tag">&lt;ins&gt;</span> → Text that has been inserted (underlined).</p>
-  </section>
+---
 
-  <!-- EMBEDDED CONTENT -->
-  <section>
-    <h2>Embedded Content</h2>
-    <p><span class="tag">&lt;area&gt;</span> → Defines clickable area inside an image map.</p>
-    <p><span class="tag">&lt;audio&gt;</span> → Embeds audio files.</p>
-    <p><span class="tag">&lt;img&gt;</span> → Embeds images.</p>
-    <p><span class="tag">&lt;map&gt;</span> → Defines image map for clickable areas.</p>
-    <p><span class="tag">&lt;track&gt;</span> → Provides subtitles/captions for video/audio.</p>
-    <p><span class="tag">&lt;video&gt;</span> → Embeds video files.</p>
-  </section>
+## 📑 Sectioning
+- **`<header>`** → Top section with logo/nav.
+- **`<footer>`** → Bottom section (copyright).
+- **`<nav>`** → Navigation menus.
+- **`<article>`** → Independent content (blog post).
+- **`<section>`** → Thematic grouping of content.
+- **`<aside>`** → Sidebar/related info.
+- **`<address>`** → Contact details.
+- **`<main>`** → Main unique content.
+- **`<h1>` → `<h6>`** → Headings.
+- **`<hgroup>`** → Groups multiple headings.
 
-  <!-- SVG and MATHML -->
-  <section>
-    <h2>SVG and MathML</h2>
-    <p><span class="tag">&lt;svg&gt;</span> → Defines Scalable Vector Graphics.</p>
-    <p><span class="tag">&lt;math&gt;</span> → Displays mathematical notations.</p>
-  </section>
+---
 
-  <!-- TABLE CONTENT -->
-  <section>
-    <h2>Table Content</h2>
-    <p><span class="tag">&lt;table&gt;</span> → Creates a table.</p>
-    <p><span class="tag">&lt;caption&gt;</span> → Title or explanation for a table.</p>
-    <p><span class="tag">&lt;colgroup&gt;</span> → Groups table columns for styling.</p>
-    <p><span class="tag">&lt;col&gt;</span> → Defines a single column’s properties.</p>
-    <p><span class="tag">&lt;tbody&gt;</span> → Groups table body rows.</p>
-    <p><span class="tag">&lt;thead&gt;</span> → Groups table header rows.</p>
-    <p><span class="tag">&lt;tfoot&gt;</span> → Groups table footer rows.</p>
-    <p><span class="tag">&lt;tr&gt;</span> → Table row.</p>
-    <p><span class="tag">&lt;td&gt;</span> → Table data cell.</p>
-    <p><span class="tag">&lt;th&gt;</span> → Table header cell.</p>
-  </section>
+## 📦 Grouping Content
+- **`<div>`** → Generic container.
+- **`<p>`** → Paragraph.
+- **`<hr>`** → Horizontal line.
+- **`<pre>`** → Preformatted text.
+- **`<blockquote>`** → Block of quoted text.
+- **`<ol>`** → Ordered list.
+- **`<ul>`** → Unordered list.
+- **`<li>`** → List item.
+- **`<dl>`** → Description list.
+- **`<dt>`** → Term in description list.
+- **`<dd>`** → Definition in description list.
+- **`<figure>`** → Groups media with caption.
+- **`<figcaption>`** → Caption for figure.
 
-  <!-- FORMS -->
-  <section>
-    <h2>Forms</h2>
-    <p><span class="tag">&lt;form&gt;</span> → Form for user input.</p>
-    <p><span class="tag">&lt;fieldset&gt;</span> → Groups form elements.</p>
-    <p><span class="tag">&lt;legend&gt;</span> → Caption for a fieldset.</p>
-    <p><span class="tag">&lt;label&gt;</span> → Label for form input.</p>
-    <p><span class="tag">&lt;input&gt;</span> → Single-line input field.</p>
-    <p><span class="tag">&lt;button&gt;</span> → Clickable button.</p>
-    <p><span class="tag">&lt;select&gt;</span> → Drop-down list.</p>
-    <p><span class="tag">&lt;datalist&gt;</span> → Provides autocomplete options for input.</p>
-    <p><span class="tag">&lt;optgroup&gt;</span> → Groups options inside a select.</p>
-    <p><span class="tag">&lt;option&gt;</span> → Option inside a select or datalist.</p>
-    <p><span class="tag">&lt;textarea&gt;</span> → Multi-line input field.</p>
-    <p><span class="tag">&lt;output&gt;</span> → Displays calculation results or outcomes.</p>
-    <p><span class="tag">&lt;progress&gt;</span> → Progress bar indicator.</p>
-    <p><span class="tag">&lt;meter&gt;</span> → Gauge for measurement values.</p>
-  </section>
+---
 
-  <!-- INTERACTIVE -->
-  <section>
-    <h2>Interactive Elements</h2>
-    <p><span class="tag">&lt;details&gt;</span> → Expandable content box.</p>
-    <p><span class="tag">&lt;summary&gt;</span> → Heading for a details box.</p>
-    <p><span class="tag">&lt;dialog&gt;</span> → Popup dialog box.</p>
-  </section>
+## 🔤 Text-Level Semantics
+- **`<a>`** → Hyperlink.
+- **`<abbr>`** → Abbreviation.
+- **`<b>`** → Bold (no importance).
+- **`<bdi>`** → Isolates text direction.
+- **`<bdo>`** → Overrides text direction.
+- **`<br>`** → Line break.
+- **`<cite>`** → Reference to a work.
+- **`<code>`** → Code snippet.
+- **`<data>`** → Machine-readable value.
+- **`<dfn>`** → Defining term.
+- **`<em>`** → Emphasis (italic).
+- **`<i>`** → Italic (alternate voice).
+- **`<kbd>`** → Keyboard input.
+- **`<mark>`** → Highlighted text.
+- **`<q>`** → Inline quote.
+- **`<rp>`** → Fallback for ruby.
+- **`<rt>`** → Ruby annotation text.
+- **`<ruby>`** → Ruby annotations (Asian languages).
+- **`<s>`** → Strikethrough.
+- **`<samp>`** → Program output.
+- **`<small>`** → Smaller text.
+- **`<span>`** → Inline container.
+- **`<strong>`** → Important text (bold).
+- **`<sub>`** → Subscript.
+- **`<sup>`** → Superscript.
+- **`<time>`** → Date/time.
+- **`<u>`** → Underlined text.
+- **`<var>`** → Variable name.
+- **`<wbr>`** → Word break opportunity.
 
-  <!-- SCRIPTING -->
-  <section>
-    <h2>Scripting</h2>
-    <p><span class="tag">&lt;script&gt;</span> → Embeds JavaScript code.</p>
-    <p><span class="tag">&lt;noscript&gt;</span> → Content shown when JavaScript is disabled.</p>
-    <p><span class="tag">&lt;canvas&gt;</span> → Used for drawing graphics with JavaScript.</p>
-  </section>
+---
 
-  <!-- DEPRECATED TAGS (LEGACY SUPPORT) -->
-  <section>
-    <h2>Deprecated/Obsolete Tags (Legacy HTML, not recommended)</h2>
-    <p><span class="tag">&lt;acronym&gt;</span> → Old way to define abbreviations (use &lt;abbr&gt;).</p>
-    <p><span class="tag">&lt;applet&gt;</span> → Old way to embed Java applets (no longer supported).</p>
-    <p><span class="tag">&lt;big&gt;</span> → Enlarges text (use CSS instead).</p>
-    <p><span class="tag">&lt;center&gt;</span> → Centers text (use CSS instead).</p>
-    <p><span class="tag">&lt;dir&gt;</span> → Directory list (use &lt;ul&gt;).</p>
-    <p><span class="tag">&lt;font&gt;</span> → Font styling (use CSS).</p>
-    <p><span class="tag">&lt;frame&gt;</span> → Part of frameset, outdated method of layouts.</p>
-    <p><span class="tag">&lt;frameset&gt;</span> → Defines a set of frames (obsolete).</p>
-    <p><span class="tag">&lt;noframes&gt;</span> → Alternate content for no-frame browsers.</p>
-    <p><span class="tag">&lt;strike&gt;</span> → Strikethrough (use &lt;s&gt; or CSS).</p>
-    <p><span class="tag">&lt;tt&gt;</span> → Teletype text (use CSS).</p>
-  </section>
+## ✏️ Edits
+- **`<del>`** → Deleted text.
+- **`<ins>`** → Inserted text.
 
-  <p><strong>End of Document:</strong> You now have explanations for all ~145 HTML5 tags (including obsolete ones).</p>
-</body>
-</html>
+---
+
+## 🎵 Embedded Content
+- **`<area>`** → Clickable area in image map.
+- **`<audio>`** → Audio file.
+- **`<img>`** → Image.
+- **`<map>`** → Image map.
+- **`<track>`** → Captions/subtitles.
+- **`<video>`** → Video.
+
+---
+
+## 🎨 SVG and MathML
+- **`<svg>`** → Vector graphics.
+- **`<math>`** → Math notation.
+
+---
+
+## 📊 Tables
+- **`<table>`** → Table.
+- **`<caption>`** → Table title.
+- **`<colgroup>`** → Group of columns.
+- **`<col>`** → Column properties.
+- **`<tbody>`** → Table body.
+- **`<thead>`** → Table header.
+- **`<tfoot>`** → Table footer.
+- **`<tr>`** → Row.
+- **`<td>`** → Data cell.
+- **`<th>`** → Header cell.
+
+---
+
+## 📝 Forms
+- **`<form>`** → Input form.
+- **`<fieldset>`** → Groups fields.
+- **`<legend>`** → Caption for fieldset.
+- **`<label>`** → Label for input.
+- **`<input>`** → Input field.
+- **`<button>`** → Button.
+- **`<select>`** → Dropdown.
+- **`<datalist>`** → Autocomplete options.
+- **`<optgroup>`** → Group of options.
+- **`<option>`** → Dropdown option.
+- **`<textarea>`** → Multi-line input.
+- **`<output>`** → Calculation result.
+- **`<progress>`** → Progress bar.
+- **`<meter>`** → Measurement gauge.
+
+---
+
+## 🖱️ Interactive
+- **`<details>`** → Expandable content.
+- **`<summary>`** → Summary for details.
+- **`<dialog>`** → Popup dialog.
+
+---
+
+## ⚡ Scripting
+- **`<script>`** → JavaScript code.
+- **`<noscript>`** → Content for no-JS.
+- **`<canvas>`** → Draw graphics.
+
+---
+
+## 🗑️ Deprecated/Obsolete Tags
+(Not recommended, included for history)
+- **`<acronym>`** → Use `<abbr>`.
+- **`<applet>`** → Old Java applets.
+- **`<big>`** → Enlarged text.
+- **`<center>`** → Center text.
+- **`<dir>`** → Directory list.
+- **`<font>`** → Font styles.
+- **`<frame>`** → Frame.
+- **`<frameset>`** → Group of frames.
+- **`<noframes>`** → Alt content.
+- **`<strike>`** → Strikethrough.
+- **`<tt>`** → Teletype text.
+
