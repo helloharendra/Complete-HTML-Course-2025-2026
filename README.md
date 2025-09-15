@@ -398,8 +398,8 @@ These tags are outdated and should not be used in new projects.
 1. **For beginners**: Start with the Basic Structure tags and gradually learn others
 2. **For specific needs**: Use the table of contents to jump to relevant sections
 3. **For best practices**: Avoid using deprecated tags in new projects
-
-    <footer>
-        <p>HTML Tags Reference Guide - Created for educational purposes By Naya Prayog Academy</p>
-        <p>Note: Some tags are deprecated and should not be used in new projects.</p>
-    </footer>
+---
+<footer>
+  <p>HTML Tags Reference Guide - Created for educational purposes By Naya Prayog Academy</p>
+  <p>Note: Some tags are deprecated and should not be used in new projects.</p>
+</footer>
