@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete HTML Tags Reference</title>
+</head>
+<body>
+    <!-- 
+        HTML STRUCTURE TAGS 
+    -->
+    
+    <!-- <!DOCTYPE html>: Defines the document type and version of HTML (HTML5 in this case) -->
+    <!DOCTYPE html>
+    
+    <!-- <html>: The root element of an HTML page -->
+    <html lang="en">
+    
+    <!-- <head>: Contains meta information about the document -->
+    <head>
+        <!-- <title>: Sets the title of the document (shown in browser tab) -->
+        <title>Complete HTML Tags Reference</title>
+        
+        <!-- <meta>: Provides metadata about the HTML document -->
+        <meta charset="UTF-8">
+        <meta name="description" content="A comprehensive guide to HTML tags">
+        
+        <!-- <style>: Used to define internal CSS styles -->
+        <style>
+            /* We'll keep this empty as requested - no CSS */
+        </style>
+        
+        <!-- <link>: Used to link external resources like CSS files -->
+        <link rel="stylesheet" href=""> <!-- Empty as requested -->
+        
+        <!-- <script>: Defines client-side JavaScript (we'll keep it empty) -->
+        <script></script>
+        
+        <!-- <base>: Specifies the base URL/target for all relative URLs in a document -->
+        <base href="">
+    </head>
+    
+    <!-- <body>: Contains the visible content of the document -->
+    <body>
+    
+    <!-- 
+        TEXT CONTENT TAGS
+    -->
+    
+    <!-- Headings: <h1> to <h6> define HTML headings with <h1> being the most important -->
+    <h1>This is a Heading 1 - Main Title</h1>
+    <h2>This is a Heading 2 - Section Title</h2>
+    <h3>This is a Heading 3 - Subsection Title</h3>
+    <h4>This is a Heading 4</h4>
+    <h5>This is a Heading 5</h5>
+    <h6>This is a Heading 6 - Smallest Heading</h6>
+    
+    <!-- <p>: Defines a paragraph -->
+    <p>This is a paragraph of text. Paragraphs are block-level elements that typically contain text content.</p>
+    
+    <!-- <br>: Inserts a single line break (empty tag, no closing tag needed) -->
+    <p>This is the first line.<br>This is the second line after a line break.</p>
+    
+    <!-- <hr>: Defines a thematic break or horizontal rule (empty tag) -->
+    <p>Section above</p>
+    <hr>
+    <p>Section below</p>
+    
+    <!-- 
+        TEXT FORMATTING TAGS
+    -->
+    
+    <!-- <b>: Defines bold text without extra importance -->
+    <p>This is <b>bold</b> text.</p>
+    
+    <!-- <strong>: Defines text with strong importance (typically displayed as bold) -->
+    <p>This is <strong>strongly important</strong> text.</p>
+    
+    <!-- <i>: Defines italic text without extra importance -->
+    <p>This is <i>italicized</i> text.</p>
+    
+    <!-- <em>: Defines emphasized text (typically displayed as italic) -->
+    <p>This is <em>emphasized</em> text.</p>
+    
+    <!-- <mark>: Defines marked/highlighted text -->
+    <p>This is <mark>highlighted</mark> text.</p>
+    
+    <!-- <small>: Defines smaller text -->
+    <p>This is <small>smaller</small> text.</p>
+    
+    <!-- <del>: Defines text that has been deleted from a document -->
+    <p>This is <del>deleted</del> text.</p>
+    
+    <!-- <ins>: Defines text that has been inserted into a document -->
+    <p>This is <ins>inserted</ins> text.</p>
+    
+    <!-- <sub>: Defines subscript text -->
+    <p>This is <sub>subscript</sub> text (H<sub>2</sub>O).</p>
+    
+    <!-- <sup>: Defines superscript text -->
+    <p>This is <sup>superscript</sup> text (x<sup>2</sup>).</p>
+    
+    <!-- <pre>: Defines preformatted text (preserves spaces and line breaks) -->
+    <pre>
+        This is preformatted text.
+        It preserves    spaces   and
+        line breaks exactly as written.
+    </pre>
+    
+    <!-- <code>: Defines a piece of computer code -->
+    <p>The <code>&lt;html&gt;</code> tag defines an HTML document.</p>
+    
+    <!-- <kbd>: Defines keyboard input -->
+    <p>Press <kbd>Ctrl</kbd> + <kbd>S</kbd> to save.</p>
+    
+    <!-- <samp>: Defines sample output from a computer program -->
+    <p>Error message: <samp>File not found</samp></p>
+    
+    <!-- <var>: Defines a variable -->
+    <p>The variable <var>x</var> represents the horizontal position.</p>
+    
+    <!-- <abbr>: Defines an abbreviation or acronym -->
+    <p><abbr title="HyperText Markup Language">HTML</abbr> is the standard markup language.</p>
+    
+    <!-- <address>: Defines contact information for the author/owner of a document -->
+    <address>
+        Written by John Doe.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address>
+    
+    <!-- <bdo>: Overrides the current text direction -->
+    <p>This text will go left to right.</p>
+    <p><bdo dir="rtl">This text will go right to left.</bdo></p>
+    
+    <!-- <blockquote>: Defines a section that is quoted from another source -->
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature.
+    </blockquote>
+    
+    <!-- <q>: Defines a short inline quotation -->
+    <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+    
+    <!-- <cite>: Defines the title of a work -->
+    <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+    
+    <!-- <dfn>: Represents the defining instance of a term -->
+    <p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+    
+    <!-- 
+        LINKS AND NAVIGATION
+    -->
+    
+    <!-- <a>: Defines a hyperlink -->
+    <p>Visit <a href="https://www.example.com">Example.com</a> for more information.</p>
+    
+    <!-- <nav>: Defines navigation links -->
+    <nav>
+        <a href="/html/">HTML</a> |
+        <a href="/css/">CSS</a> |
+        <a href="/js/">JavaScript</a>
+    </nav>
+    
+    <!-- 
+        IMAGES AND MULTIMEDIA
+    -->
+    
+    <!-- <img>: Defines an image (empty tag) -->
+    <img src="" alt="Description of image" width="200" height="100">
+    
+    <!-- <figure>: Specifies self-contained content -->
+    <!-- <figcaption>: Defines a caption for a <figure> element -->
+    <figure>
+        <img src="" alt="Alternative text">
+        <figcaption>Fig.1 - Example image with caption.</figcaption>
+    </figure>
+    
+    <!-- <picture>: Contains multiple <source> elements and one <img> element -->
+    <picture>
+        <source media="(min-width:650px)" srcset="">
+        <source media="(min-width:465px)" srcset="">
+        <img src="" alt="Alternative text" style="width:auto;">
+    </picture>
+    
+    <!-- <map>: Defines a client-side image map -->
+    <!-- <area>: Defines an area inside an image map (empty tag) -->
+    <img src="" alt="Workplace" usemap="#workmap" width="400" height="379">
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+        <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+    </map>
+    
+    <!-- <audio>: Defines sound content -->
+    <audio controls>
+        <source src="" type="audio/ogg">
+        <source src="" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <!-- <video>: Defines video content -->
+    <video width="320" height="240" controls>
+        <source src="" type="video/mp4">
+        <source src="" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+    
+    <!-- <source>: Defines multiple media resources for media elements (empty tag) -->
+    <!-- (Used within audio and video elements above) -->
+    
+    <!-- <track>: Defines text tracks for media elements (empty tag) -->
+    <video width="320" height="240" controls>
+        <source src="" type="video/mp4">
+        <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+    </video>
+    
+    <!-- <embed>: Defines a container for an external application (empty tag) -->
+    <embed src="" width="200" height="200">
+    
+    <!-- <object>: Defines an embedded object -->
+    <object data="" width="400" height="400"></object>
+    
+    <!-- <param>: Defines parameters for an object (empty tag) -->
+    <object data="">
+        <param name="autoplay" value="true">
+    </object>
+    
+    <!-- 
+        LISTS
+    -->
+    
+    <!-- <ul>: Defines an unordered list -->
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    
+    <!-- <ol>: Defines an ordered list -->
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    
+    <!-- <li>: Defines a list item -->
+    <!-- (Used in ul and ol examples above) -->
+    
+    <!-- <dl>: Defines a description list -->
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+    
+    <!-- <dt>: Defines a term in a description list -->
+    <!-- <dd>: Defines a description in a description list -->
+    <!-- (Used in dl example above) -->
+    
+    <!-- 
+        TABLES
+    -->
+    
+    <!-- <table>: Defines a table -->
+    <table border="1">
+        <!-- <caption>: Defines a table caption -->
+        <caption>Monthly Savings</caption>
+        
+        <!-- <thead>: Groups header content in a table -->
+        <thead>
+            <!-- <tr>: Defines a row in a table -->
+            <tr>
+                <!-- <th>: Defines a header cell in a table -->
+                <th>Month</th>
+                <th>Savings</th>
+            </tr>
+        </thead>
+        
+        <!-- <tbody>: Groups body content in a table -->
+        <tbody>
+            <tr>
+                <!-- <td>: Defines a cell in a table -->
+                <td>January</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>$80</td>
+            </tr>
+        </tbody>
+        
+        <!-- <tfoot>: Groups footer content in a table -->
+        <tfoot>
+            <tr>
+                <td>Sum</td>
+                <td>$180</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+    <!-- <colgroup>: Specifies a group of one or more columns in a table for formatting -->
+    <!-- <col>: Specifies column properties for each column within a <colgroup> element (empty tag) -->
+    <table>
+        <colgroup>
+            <col span="2" style="background-color:red">
+            <col style="background-color:yellow">
+        </colgroup>
+        <tr>
+            <th>ISBN</th>
+            <th>Title</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>3476896</td>
+            <td>My first HTML</td>
+            <td>$53</td>
+        </tr>
+    </table>
+    
+    <!-- 
+        FORMS AND INPUT
+    -->
+    
+    <!-- <form>: Defines an HTML form for user input -->
+    <form action="/action_page.php" method="get">
+        <!-- <label>: Defines a label for an input element -->
+        <label for="fname">First name:</label>
+        
+        <!-- <input>: Defines an input control (empty tag) -->
+        <input type="text" id="fname" name="fname"><br><br>
+        
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        
+        <!-- Different input types -->
+        <input type="button" value="Click me">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br>
+        <input type="date" id="birthday" name="birthday"><br>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime"><br>
+        <input type="email" id="email" name="email"><br>
+        <input type="file" id="myfile" name="myfile"><br>
+        <input type="hidden" id="custId" name="custId" value="3487"><br>
+        <input type="image" src="" alt="Submit" width="48" height="48"><br>
+        <input type="month" id="bdaymonth" name="bdaymonth"><br>
+        <input type="number" id="quantity" name="quantity" min="1" max="5"><br>
+        <input type="password" id="pwd" name="pwd"><br>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="range" id="vol" name="vol" min="0" max="50"><br>
+        <input type="reset" value="Reset"><br>
+        <input type="search" id="gsearch" name="gsearch"><br>
+        <input type="submit" value="Submit"><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+        <input type="text" id="username" name="username"><br>
+        <input type="time" id="appt" name="appt"><br>
+        <input type="url" id="homepage" name="homepage"><br>
+        <input type="week" id="week" name="week"><br>
+        
+        <!-- <textarea>: Defines a multiline input control (text area) -->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+        
+        <!-- <button>: Defines a clickable button -->
+        <button type="button">Click Me!</button><br>
+        
+        <!-- <select>: Defines a drop-down list -->
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+            <!-- <option>: Defines an option in a drop-down list -->
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select><br>
+        
+        <!-- <optgroup>: Defines a group of related options in a drop-down list -->
+        <label for="cars2">Choose a car:</label>
+        <select id="cars2" name="cars2">
+            <optgroup label="Swedish Cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+            </optgroup>
+            <optgroup label="German Cars">
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </optgroup>
+        </select><br>
+        
+        <!-- <fieldset>: Groups related elements in a form -->
+        <!-- <legend>: Defines a caption for a <fieldset> element -->
+        <fieldset>
+            <legend>Personal Information:</legend>
+            <label for="fname2">First name:</label>
+            <input type="text" id="fname2" name="fname2"><br><br>
+            <label for="lname2">Last name:</label>
+            <input type="text" id="lname2" name="lname2"><br><br>
+        </fieldset><br>
+        
+        <!-- <datalist>: Specifies a list of pre-defined options for input controls -->
+        <label for="browser">Choose your browser from the list:</label>
+        <input list="browsers" name="browser" id="browser">
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist><br>
+        
+        <!-- <output>: Represents the result of a calculation -->
+        <output name="result" for="a b"></output>
+    </form>
+    
+    <!-- 
+        INTERACTIVE ELEMENTS
+    -->
+    
+    <!-- <details>: Defines additional details that the user can view or hide -->
+    <!-- <summary>: Defines a visible heading for a <details> element -->
+    <details>
+        <summary>Copyright 1999-2018.</summary>
+        <p> - by Refsnes Data. All Rights Reserved.</p>
+        <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+    </details>
+    
+    <!-- <dialog>: Defines a dialog box or window -->
+    <dialog open>This is an open dialog window</dialog>
+    
+    <!-- <menu>: Defines a list/menu of commands -->
+    <menu>
+        <li><button onclick="copy()">Copy</button></li>
+        <li><button onclick="cut()">Cut</button></li>
+        <li><button onclick="paste()">Paste</button></li>
+    </menu>
+    
+    <!-- 
+        SCRIPTING
+    -->
+    
+    <!-- <script>: Defines a client-side script -->
+    <script>
+        // JavaScript code would go here
+    </script>
+    
+    <!-- <noscript>: Defines an alternate content for users that do not support client-side scripts -->
+    <noscript>Your browser does not support JavaScript!</noscript>
+    
+    <!-- <template>: Defines a container for content that should be hidden when the page loads -->
+    <template>
+        <h2>Flower</h2>
+        <img src="" width="214" height="204">
+    </template>
+    
+    <!-- <slot>: Defines a placeholder in a web component -->
+    <!-- (Typically used with JavaScript web components) -->
+    
+    <!-- <canvas>: Used to draw graphics, on the fly, via scripting (usually JavaScript) -->
+    <canvas id="myCanvas"></canvas>
+    
+    <!-- 
+        SEMANTIC/STRUCTURAL TAGS
+    -->
+    
+    <!-- <header>: Defines a header for a document or section -->
+    <header>
+        <h1>Website Header</h1>
+    </header>
+    
+    <!-- <footer>: Defines a footer for a document or section -->
+    <footer>
+        <p>Author: Hege Refsnes</p>
+        <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+    </footer>
+    
+    <!-- <main>: Specifies the main content of a document -->
+    <main>
+        <h1>Most Important Heading</h1>
+        <p>Most important content goes here.</p>
+    </main>
+    
+    <!-- <section>: Defines a section in a document -->
+    <section>
+        <h2>Section Heading</h2>
+        <p>Section content goes here.</p>
+    </section>
+    
+    <!-- <article>: Defines an article -->
+    <article>
+        <h2>Article Heading</h2>
+        <p>Article content goes here.</p>
+    </article>
+    
+    <!-- <aside>: Defines content aside from the page content -->
+    <aside>
+        <h4>Aside Heading</h4>
+        <p>Aside content goes here.</p>
+    </aside>
+    
+    <!-- <div>: Defines a division or section in an HTML document -->
+    <div>
+        <p>This is content inside a div element.</p>
+    </div>
+    
+    <!-- <span>: Defines a section in a document (inline) -->
+    <p>This is <span>text inside a span</span> element.</p>
+    
+    <!-- 
+        META INFORMATION TAGS
+    -->
+    
+    <!-- <meta>: (Already covered in head section) -->
+    
+    <!-- <base>: (Already covered in head section) -->
+    
+    <!-- 
+        PROGRAMMING/INTEGRATION TAGS
+    -->
+    
+    <!-- <object>: (Already covered in multimedia section) -->
+    
+    <!-- <param>: (Already covered in multimedia section) -->
+    
+    <!-- <embed>: (Already covered in multimedia section) -->
+    
+    <!-- <iframe>: Defines an inline frame -->
+    <iframe src="https://www.example.com" title="Example Website"></iframe>
+    
+    <!-- 
+        RUBY ANNOTATIONS (for East Asian typography)
+    -->
+    
+    <!-- <ruby>: Defines a ruby annotation (for East Asian typography) -->
+    <!-- <rt>: Defines an explanation/pronunciation of characters (for East Asian typography) -->
+    <!-- <rp>: Defines what to show in browsers that do not support ruby annotations -->
+    <ruby>
+        漢 <rt>hàn</rt>
+        字 <rt>zì</rt>
+        <rp>(</rp><rt>Kanji</rt><rp>)</rp>
+    </ruby>
+    
+    <!-- 
+        OTHER TAGS
+    -->
+    
+    <!-- <wbr>: Represents a word break opportunity (empty tag) -->
+    <p>This is a veryveryveryveryveryveryveryveryveryveryveryveryveryveryveryvery<wbr>longwordthatmaybreak.</p>
+    
+    <!-- <time>: Defines a specific time (or datetime) -->
+    <p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+    <p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+    
+    <!-- <meter>: Defines a scalar measurement within a known range (a gauge) -->
+    <label for="disk_c">Disk usage C:</label>
+    <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+    
+    <!-- <progress>: Represents the progress of a task -->
+    <label for="file">Downloading progress:</label>
+    <progress id="file" value="32" max="100"> 32% </progress>
+    
+    <!-- 
+        DEPRECATED TAGS (included for historical reference but not recommended)
+    -->
+    
+    <!-- <acronym>: (Deprecated) Defines an acronym. Use <abbr> instead. -->
+    <!-- <applet>: (Deprecated) Defines an embedded applet. Use <embed> or <object> instead. -->
+    <!-- <basefont>: (Deprecated) Specifies a default color, size, and font for all text in a document. Use CSS instead. -->
+    <!-- <big>: (Deprecated) Defines big text. Use CSS instead. -->
+    <!-- <center>: (Deprecated) Defines centered text. Use CSS instead. -->
+    <!-- <dir>: (Deprecated) Defines a directory list. Use <ul> instead. -->
+    <!-- <font>: (Deprecated) Defines font, color, and size for text. Use CSS instead. -->
+    <!-- <frame>: (Deprecated) Defines a window (a frame) in a frameset. -->
+    <!-- <frameset>: (Deprecated) Defines a set of frames. -->
+    <!-- <noframes>: (Deprecated) Defines an alternate content for users that do not support frames. -->
+    <!-- <strike>: (Deprecated) Defines strikethrough text. Use <del> or <s> instead. -->
+    <!-- <tt>: (Deprecated) Defines teletype text. Use CSS instead. -->
+    
+    </body>
+    </html>
+</body>
+</html>
