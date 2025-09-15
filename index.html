@@ -4,582 +4,546 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Complete HTML Tags Reference</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        h2 {
+            background-color: #333;
+            color: white;
+            padding: 8px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+        .tag-container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .tag {
+            font-weight: bold;
+            color: #0066cc;
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+        .description {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        .example {
+            background-color: #f8f8f8;
+            border-left: 4px solid #0066cc;
+            padding: 10px;
+            margin: 10px 0;
+            font-family: monospace;
+            white-space: pre-wrap;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            border-top: 1px solid #ccc;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
-    <!-- 
-        HTML STRUCTURE TAGS 
-    -->
-    
-    <!-- <!DOCTYPE html>: Defines the document type and version of HTML (HTML5 in this case) -->
-    <!DOCTYPE html>
-    
-    <!-- <html>: The root element of an HTML page -->
-    <html lang="en">
-    
-    <!-- <head>: Contains meta information about the document -->
-    <head>
-        <!-- <title>: Sets the title of the document (shown in browser tab) -->
-        <title>Complete HTML Tags Reference</title>
-        
-        <!-- <meta>: Provides metadata about the HTML document -->
-        <meta charset="UTF-8">
-        <meta name="description" content="A comprehensive guide to HTML tags">
-        
-        <!-- <style>: Used to define internal CSS styles -->
-        <style>
-            /* We'll keep this empty as requested - no CSS */
-        </style>
-        
-        <!-- <link>: Used to link external resources like CSS files -->
-        <link rel="stylesheet" href=""> <!-- Empty as requested -->
-        
-        <!-- <script>: Defines client-side JavaScript (we'll keep it empty) -->
-        <script></script>
-        
-        <!-- <base>: Specifies the base URL/target for all relative URLs in a document -->
-        <base href="">
-    </head>
-    
-    <!-- <body>: Contains the visible content of the document -->
-    <body>
-    
-    <!-- 
-        TEXT CONTENT TAGS
-    -->
-    
-    <!-- Headings: <h1> to <h6> define HTML headings with <h1> being the most important -->
-    <h1>This is a Heading 1 - Main Title</h1>
-    <h2>This is a Heading 2 - Section Title</h2>
-    <h3>This is a Heading 3 - Subsection Title</h3>
-    <h4>This is a Heading 4</h4>
-    <h5>This is a Heading 5</h5>
-    <h6>This is a Heading 6 - Smallest Heading</h6>
-    
-    <!-- <p>: Defines a paragraph -->
-    <p>This is a paragraph of text. Paragraphs are block-level elements that typically contain text content.</p>
-    
-    <!-- <br>: Inserts a single line break (empty tag, no closing tag needed) -->
-    <p>This is the first line.<br>This is the second line after a line break.</p>
-    
-    <!-- <hr>: Defines a thematic break or horizontal rule (empty tag) -->
-    <p>Section above</p>
-    <hr>
-    <p>Section below</p>
-    
-    <!-- 
-        TEXT FORMATTING TAGS
-    -->
-    
-    <!-- <b>: Defines bold text without extra importance -->
-    <p>This is <b>bold</b> text.</p>
-    
-    <!-- <strong>: Defines text with strong importance (typically displayed as bold) -->
-    <p>This is <strong>strongly important</strong> text.</p>
-    
-    <!-- <i>: Defines italic text without extra importance -->
-    <p>This is <i>italicized</i> text.</p>
-    
-    <!-- <em>: Defines emphasized text (typically displayed as italic) -->
-    <p>This is <em>emphasized</em> text.</p>
-    
-    <!-- <mark>: Defines marked/highlighted text -->
-    <p>This is <mark>highlighted</mark> text.</p>
-    
-    <!-- <small>: Defines smaller text -->
-    <p>This is <small>smaller</small> text.</p>
-    
-    <!-- <del>: Defines text that has been deleted from a document -->
-    <p>This is <del>deleted</del> text.</p>
-    
-    <!-- <ins>: Defines text that has been inserted into a document -->
-    <p>This is <ins>inserted</ins> text.</p>
-    
-    <!-- <sub>: Defines subscript text -->
-    <p>This is <sub>subscript</sub> text (H<sub>2</sub>O).</p>
-    
-    <!-- <sup>: Defines superscript text -->
-    <p>This is <sup>superscript</sup> text (x<sup>2</sup>).</p>
-    
-    <!-- <pre>: Defines preformatted text (preserves spaces and line breaks) -->
-    <pre>
-        This is preformatted text.
-        It preserves    spaces   and
-        line breaks exactly as written.
-    </pre>
-    
-    <!-- <code>: Defines a piece of computer code -->
-    <p>The <code>&lt;html&gt;</code> tag defines an HTML document.</p>
-    
-    <!-- <kbd>: Defines keyboard input -->
-    <p>Press <kbd>Ctrl</kbd> + <kbd>S</kbd> to save.</p>
-    
-    <!-- <samp>: Defines sample output from a computer program -->
-    <p>Error message: <samp>File not found</samp></p>
-    
-    <!-- <var>: Defines a variable -->
-    <p>The variable <var>x</var> represents the horizontal position.</p>
-    
-    <!-- <abbr>: Defines an abbreviation or acronym -->
-    <p><abbr title="HyperText Markup Language">HTML</abbr> is the standard markup language.</p>
-    
-    <!-- <address>: Defines contact information for the author/owner of a document -->
-    <address>
-        Written by John Doe.<br>
-        Visit us at:<br>
-        Example.com<br>
-        Box 564, Disneyland<br>
-        USA
-    </address>
-    
-    <!-- <bdo>: Overrides the current text direction -->
-    <p>This text will go left to right.</p>
-    <p><bdo dir="rtl">This text will go right to left.</bdo></p>
-    
-    <!-- <blockquote>: Defines a section that is quoted from another source -->
-    <blockquote cite="http://www.worldwildlife.org/who/index.html">
-        For 50 years, WWF has been protecting the future of nature.
-    </blockquote>
-    
-    <!-- <q>: Defines a short inline quotation -->
-    <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
-    
-    <!-- <cite>: Defines the title of a work -->
-    <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
-    
-    <!-- <dfn>: Represents the defining instance of a term -->
-    <p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
-    
-    <!-- 
-        LINKS AND NAVIGATION
-    -->
-    
-    <!-- <a>: Defines a hyperlink -->
-    <p>Visit <a href="https://www.example.com">Example.com</a> for more information.</p>
-    
-    <!-- <nav>: Defines navigation links -->
-    <nav>
-        <a href="/html/">HTML</a> |
-        <a href="/css/">CSS</a> |
-        <a href="/js/">JavaScript</a>
-    </nav>
-    
-    <!-- 
-        IMAGES AND MULTIMEDIA
-    -->
-    
-    <!-- <img>: Defines an image (empty tag) -->
-    <img src="" alt="Description of image" width="200" height="100">
-    
-    <!-- <figure>: Specifies self-contained content -->
-    <!-- <figcaption>: Defines a caption for a <figure> element -->
-    <figure>
-        <img src="" alt="Alternative text">
-        <figcaption>Fig.1 - Example image with caption.</figcaption>
-    </figure>
-    
-    <!-- <picture>: Contains multiple <source> elements and one <img> element -->
-    <picture>
-        <source media="(min-width:650px)" srcset="">
-        <source media="(min-width:465px)" srcset="">
-        <img src="" alt="Alternative text" style="width:auto;">
-    </picture>
-    
-    <!-- <map>: Defines a client-side image map -->
-    <!-- <area>: Defines an area inside an image map (empty tag) -->
-    <img src="" alt="Workplace" usemap="#workmap" width="400" height="379">
-    <map name="workmap">
-        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
-        <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
-        <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
-    </map>
-    
-    <!-- <audio>: Defines sound content -->
-    <audio controls>
-        <source src="" type="audio/ogg">
-        <source src="" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-    
-    <!-- <video>: Defines video content -->
-    <video width="320" height="240" controls>
-        <source src="" type="video/mp4">
-        <source src="" type="video/ogg">
-        Your browser does not support the video tag.
-    </video>
-    
-    <!-- <source>: Defines multiple media resources for media elements (empty tag) -->
-    <!-- (Used within audio and video elements above) -->
-    
-    <!-- <track>: Defines text tracks for media elements (empty tag) -->
-    <video width="320" height="240" controls>
-        <source src="" type="video/mp4">
-        <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
-    </video>
-    
-    <!-- <embed>: Defines a container for an external application (empty tag) -->
-    <embed src="" width="200" height="200">
-    
-    <!-- <object>: Defines an embedded object -->
-    <object data="" width="400" height="400"></object>
-    
-    <!-- <param>: Defines parameters for an object (empty tag) -->
-    <object data="">
-        <param name="autoplay" value="true">
-    </object>
-    
-    <!-- 
-        LISTS
-    -->
-    
-    <!-- <ul>: Defines an unordered list -->
-    <ul>
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-    </ul>
-    
-    <!-- <ol>: Defines an ordered list -->
-    <ol>
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-    </ol>
-    
-    <!-- <li>: Defines a list item -->
-    <!-- (Used in ul and ol examples above) -->
-    
-    <!-- <dl>: Defines a description list -->
-    <dl>
-        <dt>Coffee</dt>
-        <dd>- black hot drink</dd>
-        <dt>Milk</dt>
-        <dd>- white cold drink</dd>
-    </dl>
-    
-    <!-- <dt>: Defines a term in a description list -->
-    <!-- <dd>: Defines a description in a description list -->
-    <!-- (Used in dl example above) -->
-    
-    <!-- 
-        TABLES
-    -->
-    
-    <!-- <table>: Defines a table -->
-    <table border="1">
-        <!-- <caption>: Defines a table caption -->
-        <caption>Monthly Savings</caption>
-        
-        <!-- <thead>: Groups header content in a table -->
-        <thead>
-            <!-- <tr>: Defines a row in a table -->
-            <tr>
-                <!-- <th>: Defines a header cell in a table -->
-                <th>Month</th>
-                <th>Savings</th>
-            </tr>
-        </thead>
-        
-        <!-- <tbody>: Groups body content in a table -->
-        <tbody>
-            <tr>
-                <!-- <td>: Defines a cell in a table -->
-                <td>January</td>
-                <td>$100</td>
-            </tr>
-            <tr>
-                <td>February</td>
-                <td>$80</td>
-            </tr>
-        </tbody>
-        
-        <!-- <tfoot>: Groups footer content in a table -->
-        <tfoot>
-            <tr>
-                <td>Sum</td>
-                <td>$180</td>
-            </tr>
-        </tfoot>
-    </table>
-    
-    <!-- <colgroup>: Specifies a group of one or more columns in a table for formatting -->
-    <!-- <col>: Specifies column properties for each column within a <colgroup> element (empty tag) -->
-    <table>
-        <colgroup>
-            <col span="2" style="background-color:red">
-            <col style="background-color:yellow">
-        </colgroup>
-        <tr>
-            <th>ISBN</th>
-            <th>Title</th>
-            <th>Price</th>
-        </tr>
-        <tr>
-            <td>3476896</td>
-            <td>My first HTML</td>
-            <td>$53</td>
-        </tr>
-    </table>
-    
-    <!-- 
-        FORMS AND INPUT
-    -->
-    
-    <!-- <form>: Defines an HTML form for user input -->
-    <form action="/action_page.php" method="get">
-        <!-- <label>: Defines a label for an input element -->
-        <label for="fname">First name:</label>
-        
-        <!-- <input>: Defines an input control (empty tag) -->
-        <input type="text" id="fname" name="fname"><br><br>
-        
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
-        
-        <!-- Different input types -->
-        <input type="button" value="Click me">
-        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-        <label for="vehicle1"> I have a bike</label><br>
-        <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br>
-        <input type="date" id="birthday" name="birthday"><br>
-        <input type="datetime-local" id="birthdaytime" name="birthdaytime"><br>
-        <input type="email" id="email" name="email"><br>
-        <input type="file" id="myfile" name="myfile"><br>
-        <input type="hidden" id="custId" name="custId" value="3487"><br>
-        <input type="image" src="" alt="Submit" width="48" height="48"><br>
-        <input type="month" id="bdaymonth" name="bdaymonth"><br>
-        <input type="number" id="quantity" name="quantity" min="1" max="5"><br>
-        <input type="password" id="pwd" name="pwd"><br>
-        <input type="radio" id="html" name="fav_language" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="range" id="vol" name="vol" min="0" max="50"><br>
-        <input type="reset" value="Reset"><br>
-        <input type="search" id="gsearch" name="gsearch"><br>
-        <input type="submit" value="Submit"><br>
-        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
-        <input type="text" id="username" name="username"><br>
-        <input type="time" id="appt" name="appt"><br>
-        <input type="url" id="homepage" name="homepage"><br>
-        <input type="week" id="week" name="week"><br>
-        
-        <!-- <textarea>: Defines a multiline input control (text area) -->
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
-        
-        <!-- <button>: Defines a clickable button -->
-        <button type="button">Click Me!</button><br>
-        
-        <!-- <select>: Defines a drop-down list -->
-        <label for="cars">Choose a car:</label>
-        <select id="cars" name="cars">
-            <!-- <option>: Defines an option in a drop-down list -->
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="fiat">Fiat</option>
-            <option value="audi">Audi</option>
-        </select><br>
-        
-        <!-- <optgroup>: Defines a group of related options in a drop-down list -->
-        <label for="cars2">Choose a car:</label>
-        <select id="cars2" name="cars2">
-            <optgroup label="Swedish Cars">
-                <option value="volvo">Volvo</option>
-                <option value="saab">Saab</option>
-            </optgroup>
-            <optgroup label="German Cars">
-                <option value="mercedes">Mercedes</option>
-                <option value="audi">Audi</option>
-            </optgroup>
-        </select><br>
-        
-        <!-- <fieldset>: Groups related elements in a form -->
-        <!-- <legend>: Defines a caption for a <fieldset> element -->
-        <fieldset>
-            <legend>Personal Information:</legend>
-            <label for="fname2">First name:</label>
-            <input type="text" id="fname2" name="fname2"><br><br>
-            <label for="lname2">Last name:</label>
-            <input type="text" id="lname2" name="lname2"><br><br>
-        </fieldset><br>
-        
-        <!-- <datalist>: Specifies a list of pre-defined options for input controls -->
-        <label for="browser">Choose your browser from the list:</label>
-        <input list="browsers" name="browser" id="browser">
-        <datalist id="browsers">
-            <option value="Edge">
-            <option value="Firefox">
-            <option value="Chrome">
-            <option value="Opera">
-            <option value="Safari">
-        </datalist><br>
-        
-        <!-- <output>: Represents the result of a calculation -->
-        <output name="result" for="a b"></output>
-    </form>
-    
-    <!-- 
-        INTERACTIVE ELEMENTS
-    -->
-    
-    <!-- <details>: Defines additional details that the user can view or hide -->
-    <!-- <summary>: Defines a visible heading for a <details> element -->
-    <details>
-        <summary>Copyright 1999-2018.</summary>
-        <p> - by Refsnes Data. All Rights Reserved.</p>
-        <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
-    </details>
-    
-    <!-- <dialog>: Defines a dialog box or window -->
-    <dialog open>This is an open dialog window</dialog>
-    
-    <!-- <menu>: Defines a list/menu of commands -->
-    <menu>
-        <li><button onclick="copy()">Copy</button></li>
-        <li><button onclick="cut()">Cut</button></li>
-        <li><button onclick="paste()">Paste</button></li>
-    </menu>
-    
-    <!-- 
-        SCRIPTING
-    -->
-    
-    <!-- <script>: Defines a client-side script -->
-    <script>
-        // JavaScript code would go here
-    </script>
-    
-    <!-- <noscript>: Defines an alternate content for users that do not support client-side scripts -->
-    <noscript>Your browser does not support JavaScript!</noscript>
-    
-    <!-- <template>: Defines a container for content that should be hidden when the page loads -->
-    <template>
-        <h2>Flower</h2>
-        <img src="" width="214" height="204">
-    </template>
-    
-    <!-- <slot>: Defines a placeholder in a web component -->
-    <!-- (Typically used with JavaScript web components) -->
-    
-    <!-- <canvas>: Used to draw graphics, on the fly, via scripting (usually JavaScript) -->
-    <canvas id="myCanvas"></canvas>
-    
-    <!-- 
-        SEMANTIC/STRUCTURAL TAGS
-    -->
-    
-    <!-- <header>: Defines a header for a document or section -->
-    <header>
-        <h1>Website Header</h1>
-    </header>
-    
-    <!-- <footer>: Defines a footer for a document or section -->
-    <footer>
-        <p>Author: Hege Refsnes</p>
-        <p><a href="mailto:hege@example.com">hege@example.com</a></p>
-    </footer>
-    
-    <!-- <main>: Specifies the main content of a document -->
-    <main>
-        <h1>Most Important Heading</h1>
-        <p>Most important content goes here.</p>
-    </main>
-    
-    <!-- <section>: Defines a section in a document -->
-    <section>
-        <h2>Section Heading</h2>
-        <p>Section content goes here.</p>
-    </section>
-    
-    <!-- <article>: Defines an article -->
-    <article>
-        <h2>Article Heading</h2>
-        <p>Article content goes here.</p>
-    </article>
-    
-    <!-- <aside>: Defines content aside from the page content -->
-    <aside>
-        <h4>Aside Heading</h4>
-        <p>Aside content goes here.</p>
-    </aside>
-    
-    <!-- <div>: Defines a division or section in an HTML document -->
-    <div>
-        <p>This is content inside a div element.</p>
+    <h1>Complete HTML Tags Reference</h1>
+    <p>This document explains all HTML tags with simple descriptions and examples.</p>
+
+    <h2>Basic Structure Tags</h2>
+    <div class="tag-container">
+        <div class="tag">&lt;!DOCTYPE&gt;</div>
+        <div class="description">Defines the document type and version of HTML. It helps browsers display web pages correctly.</div>
+        <div class="example">&lt;!DOCTYPE html&gt;  // Tells the browser this is an HTML5 document</div>
+
+        <div class="tag">&lt;html&gt;</div>
+        <div class="description">The root element of an HTML page that contains all other HTML elements.</div>
+        <div class="example">&lt;html lang="en"&gt;...&lt;/html&gt;  // Wraps all content on the page</div>
+
+        <div class="tag">&lt;head&gt;</div>
+        <div class="description">Contains meta information about the document, like its title, styles, and scripts.</div>
+        <div class="example">&lt;head&gt;&lt;title&gt;My Page&lt;/title&gt;&lt;/head&gt;  // Contains page info</div>
+
+        <div class="tag">&lt;title&gt;</div>
+        <div class="description">Sets the title of the web page, which appears in the browser's title bar or tab.</div>
+        <div class="example">&lt;title&gt;My Website&lt;/title&gt;  // Shows in browser tab</div>
+
+        <div class="tag">&lt;body&gt;</div>
+        <div class="description">Contains all the visible content of the web page, like text, images, and links.</div>
+        <div class="example">&lt;body&gt;All visible content goes here&lt;/body&gt;  // Main content area</div>
     </div>
-    
-    <!-- <span>: Defines a section in a document (inline) -->
-    <p>This is <span>text inside a span</span> element.</p>
-    
-    <!-- 
-        META INFORMATION TAGS
-    -->
-    
-    <!-- <meta>: (Already covered in head section) -->
-    
-    <!-- <base>: (Already covered in head section) -->
-    
-    <!-- 
-        PROGRAMMING/INTEGRATION TAGS
-    -->
-    
-    <!-- <object>: (Already covered in multimedia section) -->
-    
-    <!-- <param>: (Already covered in multimedia section) -->
-    
-    <!-- <embed>: (Already covered in multimedia section) -->
-    
-    <!-- <iframe>: Defines an inline frame -->
-    <iframe src="https://www.example.com" title="Example Website"></iframe>
-    
-    <!-- 
-        RUBY ANNOTATIONS (for East Asian typography)
-    -->
-    
-    <!-- <ruby>: Defines a ruby annotation (for East Asian typography) -->
-    <!-- <rt>: Defines an explanation/pronunciation of characters (for East Asian typography) -->
-    <!-- <rp>: Defines what to show in browsers that do not support ruby annotations -->
-    <ruby>
-        漢 <rt>hàn</rt>
-        字 <rt>zì</rt>
-        <rp>(</rp><rt>Kanji</rt><rp>)</rp>
-    </ruby>
-    
-    <!-- 
-        OTHER TAGS
-    -->
-    
-    <!-- <wbr>: Represents a word break opportunity (empty tag) -->
-    <p>This is a veryveryveryveryveryveryveryveryveryveryveryveryveryveryveryvery<wbr>longwordthatmaybreak.</p>
-    
-    <!-- <time>: Defines a specific time (or datetime) -->
-    <p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
-    <p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
-    
-    <!-- <meter>: Defines a scalar measurement within a known range (a gauge) -->
-    <label for="disk_c">Disk usage C:</label>
-    <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
-    
-    <!-- <progress>: Represents the progress of a task -->
-    <label for="file">Downloading progress:</label>
-    <progress id="file" value="32" max="100"> 32% </progress>
-    
-    <!-- 
-        DEPRECATED TAGS (included for historical reference but not recommended)
-    -->
-    
-    <!-- <acronym>: (Deprecated) Defines an acronym. Use <abbr> instead. -->
-    <!-- <applet>: (Deprecated) Defines an embedded applet. Use <embed> or <object> instead. -->
-    <!-- <basefont>: (Deprecated) Specifies a default color, size, and font for all text in a document. Use CSS instead. -->
-    <!-- <big>: (Deprecated) Defines big text. Use CSS instead. -->
-    <!-- <center>: (Deprecated) Defines centered text. Use CSS instead. -->
-    <!-- <dir>: (Deprecated) Defines a directory list. Use <ul> instead. -->
-    <!-- <font>: (Deprecated) Defines font, color, and size for text. Use CSS instead. -->
-    <!-- <frame>: (Deprecated) Defines a window (a frame) in a frameset. -->
-    <!-- <frameset>: (Deprecated) Defines a set of frames. -->
-    <!-- <noframes>: (Deprecated) Defines an alternate content for users that do not support frames. -->
-    <!-- <strike>: (Deprecated) Defines strikethrough text. Use <del> or <s> instead. -->
-    <!-- <tt>: (Deprecated) Defines teletype text. Use CSS instead. -->
-    
-    </body>
-    </html>
+
+    <h2>Metadata Tags</h2>
+    <div class="tag-container">
+        <div class="tag">&lt;base&gt;</div>
+        <div class="description">Specifies a base URL for all relative URLs in a document.</div>
+        <div class="example">&lt;base href="https://example.com/"&gt;  // Sets default link location</div>
+
+        <div class="tag">&lt;link&gt;</div>
+        <div class="description">Links external resources like CSS files to the HTML document.</div>
+        <div class="example">&lt;link rel="stylesheet" href="styles.css"&gt;  // Connects CSS file</div>
+
+        <div class="tag">&lt;meta&gt;</div>
+        <div class="description">Provides metadata about the HTML document, like character set or viewport settings.</div>
+        <div class="example">&lt;meta charset="UTF-8"&gt;  // Sets character encoding</div>
+
+        <div class="tag">&lt;style&gt;</div>
+        <div class="description">Contains CSS code for styling the HTML document.</div>
+        <div class="example">&lt;style&gt;body { color: red; }&lt;/style&gt;  // Adds internal CSS</div>
+    </div>
+
+    <h2>Sectioning Tags</h2>
+    <div class="tag-container">
+        <div class="tag">&lt;address&gt;</div>
+        <div class="description">Provides contact information for the author or owner of a document.</div>
+        <div class="example">&lt;address&gt;Contact us at example@email.com&lt;/address&gt;</div>
+
+        <div class="tag">&lt;article&gt;</div>
+        <div class="description">Represents a self-contained composition like a blog post or news story.</div>
+        <div class="example">&lt;article&gt;A news story goes here&lt;/article&gt;</div>
+
+        <div class="tag">&lt;aside&gt;</div>
+        <div class="description">Contains content that is tangentially related to the main content.</div>
+        <div class="example">&lt;aside&gt;This is a sidebar with related info&lt;/aside&gt;</div>
+
+        <div class="tag">&lt;footer&gt;</div>
+        <div class="description">Defines a footer for a document or section, typically with copyright info.</div>
+        <div class="example">&lt;footer&gt;Copyright 2023&lt;/footer&gt;  // Page footer</div>
+
+        <div class="tag">&lt;header&gt;</div>
+        <div class="description">Represents introductory content, typically a group of navigational aids.</div>
+        <div class="example">&lt;header&gt;&lt;h1&gt;Website Title&lt;/h1&gt;&lt;/header&gt;</div>
+
+        <div class="tag">&lt;h1&gt; to &lt;h6&gt;</div>
+        <div class="description">Defines HTML headings, with h1 being the most important and h6 the least.</div>
+        <div class="example">&lt;h1&gt;Main Heading&lt;/h1&gt;  // Largest heading</div>
+
+        <div class="tag">&lt;hgroup&gt;</div>
+        <div class="description">Groups a set of h1-h6 elements when a heading has multiple levels.</div>
+        <div class="example">&lt;hgroup&gt;&lt;h1&gt;Main&lt;/h1&gt;&lt;h2&gt;Subtitle&lt;/h2&gt;&lt;/hgroup&gt;</div>
+
+        <div class="tag">&lt;main&gt;</div>
+        <div class="description">Specifies the main content of a document, which should be unique to that document.</div>
+        <div class="example">&lt;main&gt;The primary content of the page&lt;/main&gt;</div>
+
+        <div class="tag">&lt;nav&gt;</div>
+        <div class="description">Defines a section of navigation links.</div>
+        <div class="example">&lt;nav&gt;&lt;a href="/home"&gt;Home&lt;/a&gt;&lt;/nav&gt;  // Navigation menu</div>
+
+        <div class="tag">&lt;section&gt;</div>
+        <div class="description">Defines a section in a document, like chapters or parts of content.</div>
+        <div class="example">&lt;section&gt;A chapter of content&lt;/section&gt;</div>
+    </div>
+
+    <h2>Grouping Content Tags</h2>
+    <div class="tag-container">
+        <div class="tag">&lt;div&gt;</div>
+        <div class="description">A generic container for flow content, used for grouping and styling.</div>
+        <div class="example">&lt;div&gt;A division or section&lt;/div&gt;  // Content container</div>
+
+        <div class="tag">&lt;p&gt;</div>
+        <div class="description">Defines a paragraph of text.</div>
+        <div class="example">&lt;p&gt;This is a paragraph of text.&lt;/p&gt;</div>
+
+        <div class="tag">&lt;hr&gt;</div>
+        <div class="description">Represents a thematic break between paragraph-level elements.</div>
+        <div class="example">&lt;hr&gt;  // Creates a horizontal line</div>
+
+        <div class="tag">&lt;pre&gt;</div>
+        <div class="description">Defines preformatted text that preserves spaces and line breaks.</div>
+        <div class="example">&lt;pre&gt;Text with   spaces and
+line breaks preserved&lt;/pre&gt;</div>
+
+        <div class="tag">&lt;blockquote&gt;</div>
+        <div class="description">Indicates that the enclosed text is an extended quotation.</div>
+        <div class="example">&lt;blockquote&gt;A long quotation from another source&lt;/blockquote&gt;</div>
+
+        <div class="tag">&lt;ol&gt;</div>
+        <div class="description">Defines an ordered (numbered) list.</div>
+        <div class="example">&lt;ol&gt;&lt;li&gt;First item&lt;/li&gt;&lt;/ol&gt;  // Numbered list</div>
+
+        <div class="tag">&lt;ul&gt;</div>
+        <div class="description">Defines an unordered (bulleted) list.</div>
+        <div class="example">&lt;ul&gt;&lt;li&gt;List item&lt;/li&gt;&lt;/ul&gt;  // Bullet list</div>
+
+        <div class="tag">&lt;li&gt;</div>
+        <div class="description">Defines a list item within ordered or unordered lists.</div>
+        <div class="example">&lt;li&gt;An item in a list&lt;/li&gt;</div>
+
+        <div class="tag">&lt;dl&gt;</div>
+        <div class="description">Defines a description list (formerly definition list).</div>
+        <div class="example">&lt;dl&gt;&lt;dt&gt;Term&lt;/dt&gt;&lt;dd&gt;Description&lt;/dd&gt;&lt;/dl&gt;</div>
+
+        <div class="tag">&lt;dt&gt;</div>
+        <div class="description">Defines a term in a description list.</div>
+        <div class="example">&lt;dt&gt;HTML&lt;/dt&gt;  // Term to be defined</div>
+
+        <div class="tag">&lt;dd&gt;</div>
+        <div class="description">Provides the definition/description of a term in a description list.</div>
+        <div class="example">&lt;dd&gt;HyperText Markup Language&lt;/dd&gt;  // Definition</div>
+
+        <div class="tag">&lt;figure&gt;</div>
+        <div class="description">Represents self-contained content, like images or diagrams.</div>
+        <div class="example">&lt;figure&gt;&lt;img src="image.jpg"&gt;&lt;/figure&gt;</div>
+
+        <div class="tag">&lt;figcaption&gt;</div>
+        <div class="description">Defines a caption for a &lt;figure&gt; element.</div>
+        <div class="example">&lt;figcaption&gt;Caption for the figure&lt;/figcaption&gt;</div>
+    </div>
+
+    <h2>Text-level Semantics Tags</h2>
+    <div class="tag-container">
+        <div class="tag">&lt;a&gt;</div>
+        <div class="description">Defines a hyperlink to another web page or resource.</div>
+        <div class="example">&lt;a href="https://example.com"&gt;Click here&lt;/a&gt;  // Link</div>
+
+        <div class="tag">&lt;abbr&gt;</div>
+        <div class="description">Defines an abbreviation or acronym, with optional full explanation.</div>
+        <div class="example">&lt;abbr title="World Health Organization"&gt;WHO&lt;/abbr&gt;</div>
+
+        <div class="tag">&lt;b&gt;</div>
+        <div class="description">Makes text bold without conveying extra importance.</div>
+        <div class="example">&lt;b&gt;This text is bold&lt;/b&gt;</div>
+
+        <div class="tag">&lt;bdi&gt;</div>
+        <div class="description">Isolates a part of text that might be formatted in a different direction.</div>
+        <div class="example">&lt;bdi&gt;Text with different directionality&lt;/bdi&gt;</div>
+
+        <div class="tag">&lt;bdo&gt;</div>
+        <div class="description">Overrides the current text direction.</div>
+        <div class="example">&lt;bdo dir="rtl"&gt;This text is right-to-left&lt;/bdo&gt;</div>
+
+        <div class="tag">&lt;br&gt;</div>
+        <div class="description">Produces a line break in text (carriage-return).</div>
+        <div class="example">Line one&lt;br&gt;Line two  // Line break</div>
+
+        <div class="tag">&lt;cite&gt;</div>
+        <div class="description">Defines the title of a creative work (e.g., a book, poem, song).</div>
+        <div class="example">&lt;cite&gt;The Great Gatsby&lt;/cite&gt; by F. Scott Fitzgerald</div>
+
+        <div class="tag">&lt;code&gt;</div>
+        <div class="description">Displays a piece of computer code in monospace font.</div>
+        <div class="example">&lt;code&gt;console.log('Hello');&lt;/code&gt;  // Code snippet</div>
+
+        <div class="tag">&lt;data&gt;</div>
+        <div class="description">Links content with a machine-readable translation.</div>
+        <div class="example">&lt;data value="123"&gt;Product Name&lt;/data&gt;</div>
+
+        <div class="tag">&lt;dfn&gt;</div>
+        <div class="description">Represents the defining instance of a term.</div>
+        <div class="example">&lt;dfn&gt;HTML&lt;/dfn&gt; is the standard markup language.</div>
+
+        <div class="tag">&lt;em&gt;</div>
+        <div class="description">Marks text that has stress emphasis, typically displayed as italic.</div>
+        <div class="example">I &lt;em&gt;really&lt;/em&gt; mean it.  // Emphasized text</div>
+
+        <div class="tag">&lt;i&gt;</div>
+        <div class="description">Represents text in an alternate voice or mood, typically italic.</div>
+        <div class="example">&lt;i&gt;This is italic text&lt;/i&gt;</div>
+
+        <div class="tag">&lt;kbd&gt;</div>
+        <div class="description">Represents user keyboard input, shown in monospace font.</div>
+        <div class="example">Press &lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;C&lt;/kbd&gt; to copy.</div>
+
+        <div class="tag">&lt;mark&gt;</div>
+        <div class="description">Represents text highlighted for reference purposes.</div>
+        <div class="example">This is &lt;mark&gt;important text&lt;/mark&gt; to notice.</div>
+
+        <div class="tag">&lt;q&gt;</div>
+        <div class="description">Defines a short inline quotation.</div>
+        <div class="example">She said, &lt;q&gt;Hello there!&lt;/q&gt;</div>
+
+        <div class="tag">&lt;rp&gt;</div>
+        <div class="description">Provides fall-back parentheses for browsers that don't support ruby annotations.</div>
+        <div class="example">&lt;ruby&gt;漢 &lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;kan&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;</div>
+
+        <div class="tag">&lt;rt&gt;</div>
+        <div class="description">Defines the pronunciation of character presented in a ruby annotation.</div>
+        <div class="example">&lt;ruby&gt;漢 &lt;rt&gt;kan&lt;/rt&gt;&lt;/ruby&gt;</div>
+
+        <div class="tag">&lt;ruby&gt;</div>
+        <div class="description">Represents small annotations for showing pronunciation of East Asian characters.</div>
+        <div class="example">&lt;ruby&gt;漢 &lt;rt&gt;kan&lt;/rt&gt;&lt;/ruby&gt;</div>
+
+        <div class="tag">&lt;s&gt;</div>
+        <div class="description">Renders text with a strikethrough, indicating it's no longer accurate.</div>
+        <div class="example">&lt;s&gt;This text is no longer correct&lt;/s&gt;</div>
+
+        <div class="tag">&lt;samp&gt;</div>
+        <div class="description">Represents sample output from a computer program.</div>
+        <div class="example">&lt;samp&gt;File not found.&lt;/samp&gt;  // Sample output</div>
+
+        <div class="tag">&lt;small&gt;</div>
+        <div class="description">Renders side-comments and small print, like copyright text.</div>
+        <div class="example">&lt;small&gt;Copyright 2023&lt;/small&gt;  // Small text</div>
+
+        <div class="tag">&lt;span&gt;</div>
+        <div class="description">A generic inline container for phrasing content.</div>
+        <div class="example">&lt;span style="color:red"&gt;Red text&lt;/span&gt;  // Inline container</div>
+
+        <div class="tag">&lt;strong&gt;</div>
+        <div class="description">Indicates strong importance, seriousness, or urgency, typically bold.</div>
+        <div class="example">&lt;strong&gt;Warning!&lt;/strong&gt; This is important.</div>
+
+        <div class="tag">&lt;sub&gt;</div>
+        <div class="description">Defines subscript text, which appears half a character below the normal line.</div>
+        <div class="example">H&lt;sub&gt;2&lt;/sub&gt;O  // Subscript text</div>
+
+        <div class="tag">&lt;sup&gt;</div>
+        <div class="description">Defines superscript text, which appears half a character above the normal line.</div>
+        <div class="example">E = mc&lt;sup&gt;2&lt;/sup&gt;  // Superscript text</div>
+
+        <div class="tag">&lt;time&gt;</div>
+        <div class="description">Represents a specific period in time, can be machine-readable.</div>
+        <div class="example">&lt;time datetime="2023-12-25"&gt;Christmas&lt;/time&gt;</div>
+
+        <div class="tag">&lt;u&gt;</div>
+        <div class="description">Renders text with an underline, often indicating misspelled text.</div>
+        <div class="example">&lt;u&gt;This text is underlined&lt;/u&gt;</div>
+
+        <div class="tag">&lt;var&gt;</div>
+        <div class="description">Represents a variable in a mathematical expression or programming context.</div>
+        <div class="example">The variable &lt;var&gt;x&lt;/var&gt; represents the unknown value.</div>
+
+        <div class="tag">&lt;wbr&gt;</div>
+        <div class="description">Represents a word break opportunity—a position within text where the browser may break a line.</div>
+        <div class="example">VeryLongWord&lt;wbr&gt;BreakOpportunity</div>
+    </div>
+
+    <h2>Edits Tags</h2>
+    <div class="tag-container">
+        <div class="tag">&lt;del&gt;</div>
+        <div class="description">Represents text that has been deleted from a document, typically shown with strikethrough.</div>
+        <div class="example">&lt;del&gt;This text has been deleted&lt;/del&gt;</div>
+
+        <div class="tag">&lt;ins&gt;</div>
+        <div class="description">Represents text that has been inserted into a document, typically shown with underline.</div>
+        <div class="example">&lt;ins&gt;This text has been inserted&lt;/ins&gt;</div>
+    </div>
+
+    <h2>Embedded Content Tags</h2>
+    <div class="tag-container">
+        <div class="tag">&lt;area&gt;</div>
+        <div class="description">Defines a clickable area inside an image map.</div>
+        <div class="example">&lt;area shape="rect" coords="0,0,50,50" href="link.html"&gt;</div>
+
+        <div class="tag">&lt;audio&gt;</div>
+        <div class="description">Embeds sound content in a document.</div>
+        <div class="example">&lt;audio controls&gt;&lt;source src="audio.mp3"&gt;&lt;/audio&gt;</div>
+
+        <div class="tag">&lt;img&gt;</div>
+        <div class="description">Embeds an image into the document.</div>
+        <div class="example">&lt;img src="image.jpg" alt="Description"&gt;  // Image</div>
+
+        <div class="tag">&lt;map&gt;</div>
+        <div class="description">Defines an image map with clickable areas.</div>
+        <div class="example">&lt;map name="workmap"&gt;&lt;area shape="rect" coords="0,0,50,50"&gt;&lt;/map&gt;</div>
+
+        <div class="tag">&lt;track&gt;</div>
+        <div class="description">Specifies text tracks for media elements like &lt;video&gt; or &lt;audio&gt;.</div>
+        <div class="example">&lt;track src="subtitles.vtt" kind="subtitles" srclang="en"&gt;</div>
+
+        <div class="tag">&lt;video&gt;</div>
+        <div class="description">Embeds a video player in the document.</div>
+        <div class="example">&lt;video controls&gt;&lt;source src="movie.mp4"&gt;&lt;/video&gt;</div>
+    </div>
+
+    <h2>SVG and MathML Tags</h2>
+    <div class="tag-container">
+        <div class="tag">&lt;svg&gt;</div>
+        <div class="description">Container for SVG (Scalable Vector Graphics) content.</div>
+        <div class="example">&lt;svg width="100" height="100"&gt;&lt;circle cx="50" cy="50" r="40"&gt;&lt;/svg&gt;</div>
+
+        <div class="tag">&lt;math&gt;</div>
+        <div class="description">Container for MathML content for mathematical equations.</div>
+        <div class="example">&lt;math&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;/math&gt;</div>
+    </div>
+
+    <h2>Table Content Tags</h2>
+    <div class="tag-container">
+        <div class="tag">&lt;table&gt;</div>
+        <div class="description">Defines a table for displaying data in rows and columns.</div>
+        <div class="example">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Cell&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</div>
+
+        <div class="tag">&lt;caption&gt;</div>
+        <div class="description">Defines a table caption, which describes the table.</div>
+        <div class="example">&lt;caption&gt;Monthly Sales&lt;/caption&gt;  // Table title</div>
+
+        <div class="tag">&lt;colgroup&gt;</div>
+        <div class="description">Specifies a group of one or more columns in a table for formatting.</div>
+        <div class="example">&lt;colgroup&gt;&lt;col span="2" style="background-color:red"&gt;&lt;/colgroup&gt;</div>
+
+        <div class="tag">&lt;col&gt;</div>
+        <div class="description">Specifies column properties for each column within a &lt;colgroup&gt;.</div>
+        <div class="example">&lt;col style="width:50%"&gt;  // Column properties</div>
+
+        <div class="tag">&lt;tbody&gt;</div>
+        <div class="description">Groups the body content in a table.</div>
+        <div class="example">&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Data&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;</div>
+
+        <div class="tag">&lt;thead&gt;</div>
+        <div class="description">Groups the header content in a table.</div>
+        <div class="example">&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Header&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;</div>
+
+        <div class="tag">&lt;tfoot&gt;</div>
+        <div class="description">Groups the footer content in a table.</div>
+        <div class="example">&lt;tfoot&gt;&lt;tr&gt;&lt;td&gt;Total&lt;/td&gt;&lt;/tr&gt;&lt;/tfoot&gt;</div>
+
+        <div class="tag">&lt;tr&gt;</div>
+        <div class="description">Defines a row in a table.</div>
+        <div class="example">&lt;tr&gt;&lt;td&gt;Cell 1&lt;/td&gt;&lt;td&gt;Cell 2&lt;/td&gt;&lt;/tr&gt;</div>
+
+        <div class="tag">&lt;td&gt;</div>
+        <div class="description">Defines a standard data cell in a table.</div>
+        <div class="example">&lt;td&gt;Table cell data&lt;/td&gt;</div>
+
+        <div class="tag">&lt;th&gt;</div>
+        <div class="description">Defines a header cell in a table.</div>
+        <div class="example">&lt;th&gt;Column Header&lt;/th&gt;  // Table header</div>
+    </div>
+
+    <h2>Forms Tags</h2>
+    <div class="tag-container">
+        <div class="tag">&lt;form&gt;</div>
+        <div class="description">Creates an HTML form for user input.</div>
+        <div class="example">&lt;form action="/submit" method="post"&gt;Form elements&lt;/form&gt;</div>
+
+        <div class="tag">&lt;fieldset&gt;</div>
+        <div class="description">Groups related elements in a form with a box around them.</div>
+        <div class="example">&lt;fieldset&gt;&lt;legend&gt;Personal Info&lt;/legend&gt;...&lt;/fieldset&gt;</div>
+
+        <div class="tag">&lt;legend&gt;</div>
+        <div class="description">Defines a caption for a &lt;fieldset&gt; element.</div>
+        <div class="example">&lt;legend&gt;Personal Information&lt;/legend&gt;  // Fieldset title</div>
+
+        <div class="tag">&lt;label&gt;</div>
+        <div class="description">Defines a label for an &lt;input&gt; element, improving accessibility.</div>
+        <div class="example">&lt;label for="name"&gt;Name:&lt;/label&gt;  // Input label</div>
+
+        <div class="tag">&lt;input&gt;</div>
+        <div class="description">Creates an input field where users can enter data, with various types.</div>
+        <div class="example">&lt;input type="text" name="username"&gt;  // Text input</div>
+
+        <div class="tag">&lt;button&gt;</div>
+        <div class="description">Creates a clickable button that can submit forms or trigger actions.</div>
+        <div class="example">&lt;button type="submit"&gt;Submit&lt;/button&gt;  // Clickable button</div>
+
+        <div class="tag">&lt;select&gt;</div>
+        <div class="description">Creates a drop-down list of options for users to choose from.</div>
+        <div class="example">&lt;select&gt;&lt;option value="1"&gt;Option 1&lt;/option&gt;&lt;/select&gt;</div>
+
+        <div class="tag">&lt;datalist&gt;</div>
+        <div class="description">Specifies a list of pre-defined options for an &lt;input&gt; element.</div>
+        <div class="example">&lt;datalist id="browsers"&gt;&lt;option value="Chrome"&gt;&lt;/datalist&gt;</div>
+
+        <div class="tag">&lt;optgroup&gt;</div>
+        <div class="description">Groups related options in a drop-down list.</div>
+        <div class="example">&lt;optgroup label="Group Name"&gt;&lt;option&gt;Option&lt;/option&gt;&lt;/optgroup&gt;</div>
+
+        <div class="tag">&lt;option&gt;</div>
+        <div class="description">Defines an option in a drop-down list within &lt;select&gt; or &lt;datalist&gt;.</div>
+        <div class="example">&lt;option value="value"&gt;Display Text&lt;/option&gt;</div>
+
+        <div class="tag">&lt;textarea&gt;</div>
+        <div class="description">Defines a multi-line text input control for longer text entries.</div>
+        <div class="example">&lt;textarea rows="4" cols="50"&gt;Default text&lt;/textarea&gt;</div>
+
+        <div class="tag">&lt;output&gt;</div>
+        <div class="description">Represents the result of a calculation or user action.</div>
+        <div class="example">&lt;output name="result"&gt;0&lt;/output&gt;  // Calculation result</div>
+
+        <div class="tag">&lt;progress&gt;</div>
+        <div class="description">Represents the completion progress of a task, typically displayed as a progress bar.</div>
+        <div class="example">&lt;progress value="70" max="100"&gt;70%&lt;/progress&gt;</div>
+
+        <div class="tag">&lt;meter&gt;</div>
+        <div class="description">Represents a scalar measurement within a known range, or a fractional value.</div>
+        <div class="example">&lt;meter value="0.6"&gt;60%&lt;/meter&gt;  // Measurement gauge</div>
+    </div>
+
+    <h2>Interactive Elements Tags</h2>
+    <div class="tag-container">
+        <div class="tag">&lt;details&gt;</div>
+        <div class="description">Creates a disclosure widget where information is visible only when toggled open.</div>
+        <div class="example">&lt;details&gt;&lt;summary&gt;More Info&lt;/summary&gt;Content&lt;/details&gt;</div>
+
+        <div class="tag">&lt;summary&gt;</div>
+        <div class="description">Specifies a visible heading for a &lt;details&gt; element that can be clicked to toggle.</div>
+        <div class="example">&lt;summary&gt;Click to expand&lt;/summary&gt;  // Details heading</div>
+
+        <div class="tag">&lt;dialog&gt;</div>
+        <div class="description">Defines a dialog box or window that can be shown or hidden.</div>
+        <div class="example">&lt;dialog open&gt;This is a dialog box&lt;/dialog&gt;</div>
+    </div>
+
+    <h2>Scripting Tags</h2>
+    <div class="tag-container">
+        <div class="tag">&lt;script&gt;</div>
+        <div class="description">Embeds or references executable code, typically JavaScript.</div>
+        <div class="example">&lt;script&gt;alert('Hello!');&lt;/script&gt;  // JavaScript code</div>
+
+        <div class="tag">&lt;noscript&gt;</div>
+        <div class="description">Defines content to be displayed if scripts are not supported or disabled.</div>
+        <div class="example">&lt;noscript&gt;Your browser doesn't support JavaScript&lt;/noscript&gt;</div>
+
+        <div class="tag">&lt;canvas&gt;</div>
+        <div class="description">Used to draw graphics via scripting (usually JavaScript).</div>
+        <div class="example">&lt;canvas id="myCanvas" width="200" height="100"&gt;&lt;/canvas&gt;</div>
+    </div>
+
+    <h2>Deprecated Tags (Avoid Using)</h2>
+    <div class="tag-container">
+        <div class="tag">&lt;acronym&gt;</div>
+        <div class="description">Deprecated. Was used for acronyms. Use &lt;abbr&gt; instead.</div>
+
+        <div class="tag">&lt;applet&gt;</div>
+        <div class="description">Deprecated. Was used to embed Java applets. Use &lt;embed&gt; or &lt;object&gt; instead.</div>
+
+        <div class="tag">&lt;big&gt;</div>
+        <div class="description">Deprecated. Was used to make text bigger. Use CSS instead.</div>
+
+        <div class="tag">&lt;center&gt;</div>
+        <div class="description">Deprecated. Was used to center content. Use CSS instead.</div>
+
+        <div class="tag">&lt;dir&gt;</div>
+        <div class="description">Deprecated. Was used for directory lists. Use &lt;ul&gt; instead.</div>
+
+        <div class="tag">&lt;font&gt;</div>
+        <div class="description">Deprecated. Was used for font styling. Use CSS instead.</div>
+
+        <div class="tag">&lt;frame&gt;</div>
+        <div class="description">Deprecated. Was used to define a particular window (frame) within a &lt;frameset&gt;.</div>
+
+        <div class="tag">&lt;frameset&gt;</div>
+        <div class="description">Deprecated. Was used to define a set of frames for a page layout.</div>
+
+        <div class="tag">&lt;noframes&gt;</div>
+        <div class="description">Deprecated. Was used to provide content for browsers that don't support frames.</div>
+
+        <div class="tag">&lt;strike&gt;</div>
+        <div class="description">Deprecated. Was used for strikethrough text. Use &lt;del&gt; or CSS instead.</div>
+
+        <div class="tag">&lt;tt&gt;</div>
+        <div class="description">Deprecated. Was used for teletype text. Use &lt;code&gt; or CSS instead.</div>
+    </div>
+
+    <footer>
+        <p>HTML Tags Reference Guide - Created for educational purposes</p>
+        <p>Note: Some tags are deprecated and should not be used in new projects.</p>
+    </footer>
 </body>
 </html>
