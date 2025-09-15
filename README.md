@@ -399,16 +399,7 @@ These tags are outdated and should not be used in new projects.
 2. **For specific needs**: Use the table of contents to jump to relevant sections
 3. **For best practices**: Avoid using deprecated tags in new projects
 
-## Additional Resources
-
-- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML) - Comprehensive HTML reference
-- [W3Schools HTML Tutorial](https://www.w3schools.com/html/) - Interactive HTML tutorials
-- [HTML Living Standard](https://html.spec.whatwg.org/) - Official HTML specification
-
-## Contributing
-
-Found an error or want to improve this reference? Please feel free to submit corrections or suggestions!
-
----
-
-*This reference is designed to help students understand HTML tags in a simple, approachable way. Remember that practice is key to mastering HTML!*
+    <footer>
+        <p>HTML Tags Reference Guide - Created for educational purposes By Naya Prayog Academy</p>
+        <p>Note: Some tags are deprecated and should not be used in new projects.</p>
+    </footer>
