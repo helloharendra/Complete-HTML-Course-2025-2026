@@ -1,4 +1,4 @@
-<!-- # HTML5 Tags - Complete List with Explanations
+# HTML5 Tags - Complete List with Explanations
 
 This README contains the complete list of **all ~145 HTML5 tags** (including obsolete ones) explained in simple words, so students and beginners can easily learn. You can also copy them directly for practice.
 
@@ -166,7 +166,7 @@ This README contains the complete list of **all ~145 HTML5 tags** (including obs
 - **`<noframes>`** → Alt content.
 - **`<strike>`** → Strikethrough.
 - **`<tt>`** → Teletype text.
- -->
+
 # Complete HTML Tags Reference 📚
 
 A comprehensive guide to all HTML tags with simple explanations and examples. Perfect for beginners learning web development!
@@ -398,8 +398,7 @@ These tags are outdated and should not be used in new projects.
 1. **For beginners**: Start with the Basic Structure tags and gradually learn others
 2. **For specific needs**: Use the table of contents to jump to relevant sections
 3. **For best practices**: Avoid using deprecated tags in new projects
+
 ---
-<footer>
-  <p>HTML Tags Reference Guide - Created for educational purposes By Naya Prayog Academy</p>
-  <p>Note: Some tags are deprecated and should not be used in new projects.</p>
-</footer>
+**HTML Tags Reference Guide** - Created for educational purposes By Naya Prayog Academy 
+  **Note**: Some tags are deprecated and should not be used in new projects.
