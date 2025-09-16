@@ -1,4 +1,4 @@
-# HTML5 Tags - Complete List with Explanations
+<!-- # HTML5 Tags - Complete List with Explanations
 
 This README contains the complete list of **all ~145 HTML5 tags** (including obsolete ones) explained in simple words, so students and beginners can easily learn. You can also copy them directly for practice.
 
@@ -165,7 +165,7 @@ This README contains the complete list of **all ~145 HTML5 tags** (including obs
 - **`<frameset>`** → Group of frames.
 - **`<noframes>`** → Alt content.
 - **`<strike>`** → Strikethrough.
-- **`<tt>`** → Teletype text.
+- **`<tt>`** → Teletype text. -->
 
 # Complete HTML Tags Reference 📚
 
