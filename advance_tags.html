@@ -22,8 +22,6 @@
         <h3>Heading 3</h3>
     </hgroup>
 
-
-    
     <section id="home">   
         <h1>Home</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odio!</p>
@@ -71,6 +69,94 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odio!</p>
 </section>
 <br><br><br>
+
+
+<h2>Blockquote example</h2>
+
+ <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odio!</blockquote>
+
+ <p> dfdf       adsfd</p>
+
+<figure>
+    <img src="my_images/image.png" alt="image not found">
+    <figcaption>This is all about this image</figcaption>
+    
+</figure>
+
+<p>The <abbr title="celebrated at 15 August">independence day</abbr> India most celebrated festival</p>
+
+<ul><li><bdi>Alex</bdi></li>
+<li><bdi>English</bdi></li>
+</ul>
+
+<p>  <bdo dir="rtl">hello Guys</bdo></p>  
+
+<p>Product: <data value="101">Laptop</data></p>
+
+<p><dfn>HTML </dfn> Stands for hyper text markup language</p>
+
+<p>To copy text use <kbd>ctrl+C</kbd> now you can paste it using <kbd>Ctrl+V</kbd></p>
+
+<p>He said<q>Practice makes perfect</q></p>
+ <p>Meeting on <time datetime="2025-09-25">25th september 2025 </time></p>
+
+  <p>Price of item: <data value="499">₹499</data></p>
+<p><dfn>API</dfn> stands for Application Programming Interface.</p>
+<p>To save a file, press <kbd>Ctrl</kbd> + <kbd>S</kbd>.</p>
+<p>He said, <q>The future belongs to AI.</q></p>
+<ruby>
+  漢 <rp>(</rp><rt>Kan</rt><rp>)</rp>
+  字 <rp>(</rp><rt>Ji</rt><rp>)</rp>
+</ruby>
+<p>Event starts at <time datetime="2025-10-01T18:00">6 PM, 1 Oct 2025</time>.</p>
+
+
+
+<img src="my_images/world_map.jpg" alt="World Map" usemap="#worldmap">
+
+<map name="worldmap">
+  <area shape="rect" coords="34,44,270,350" href="asia.html" alt="Asia">
+  <area shape="circle" coords="477,300,75" href="europe.html" alt="Europe">
+</map>
+
+
+
+<video controls width="400">
+  <source src="movie.mp4" type="video/mp4">
+  <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+</video>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msup>
+    <mi>x</mi>
+    <mn>2</mn>
+  </msup>
+</math>
+<p>Disk Usage: <meter value="0.7" min="0" max="1">70%</meter></p>
+
+<canvas id="myCanvas" width="300" height="150" style="border:1px solid black;">
+  Your browser does not support the canvas element.
+</canvas>
+
+<script>
+  const canvas = document.getElementById("myCanvas");
+  const ctx = canvas.getContext("2d");
+
+  // Draw a blue rectangle
+  ctx.fillStyle = "blue";
+  ctx.fillRect(50, 40, 150, 75);
+</script>
+<canvas id="circleCanvas" width="200" height="200" style="border:1px solid black;"></canvas>
+
+<script>
+  const c = document.getElementById("circleCanvas");
+  const ctx = c.getContext("2d");
+
+  ctx.beginPath();
+  ctx.arc(100, 100, 50, 0, 2 * Math.PI); // x=100, y=100, radius=50
+  ctx.fillStyle = "red";
+  ctx.fill();
+  ctx.stroke();
+</script>
 
   
 </body>
