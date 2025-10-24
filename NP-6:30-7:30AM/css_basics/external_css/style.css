@@ -1,0 +1,15 @@
+    h1 {
+        font-size: 100;
+        text-align: left;
+        color: aqua;
+    }
+
+    h2 {
+        text-align: right;
+        color: green;
+    }
+
+    p {
+        color: brown;
+        text-align: center;
+    }
