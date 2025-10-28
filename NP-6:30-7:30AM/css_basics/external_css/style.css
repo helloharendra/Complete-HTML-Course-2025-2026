@@ -1,15 +1,41 @@
-    h1 {
-        font-size: 100;
-        text-align: left;
-        color: aqua;
+    *{
+        color: red;
     }
-
-    h2 {
-        text-align: right;
+    body{
+        background-color: yellow;
+        /* background-image: url('/images/nature.jpg'); */
+    }
+    .intro{
+        font-size: 120;
+    }
+    .des{
+        font-size: 60;
+    }
+    .card{
+        background-color: white;
+        border-radius: 10px;
+        padding: 50;
+        
+    }
+    .card h2{
         color: green;
     }
-
-    p {
-        color: brown;
-        text-align: center;
+    .card p{
+        color: bisque;
     }
+    .btn{
+        background-color: white;
+        color: black;
+        margin: 10;
+        padding: 20;
+        border: radius 20px;
+    }
+    .btn:hover{
+        background-color: blue;
+        color: white;
+    }
+
+
+
+
+
